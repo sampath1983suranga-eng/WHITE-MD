@@ -1,13 +1,13 @@
 {
   "name": "HASHAN-MD",
-  "description": "Javascript WhatsApp bot made by YourName",
+  "description": "Javascript WhatsApp bot made by HASHIYA",
   "logo": "https://telegra.ph/file/04f33ed3a84d24104a9ef.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
   "env": {
     "SESSION_ID": {
-      "description": "k8QzkJCA#Aigu_ybSZBObQF_a9yzcRYhR0ibbDAIBGv-7aih21L8",
+      "description": "mIkBRTyK#4-HH67Q2_CWf6ApKWaWAhlmp2umIMpuRZ9UqoAfrmuQ",
       "required": true
     },  
 
