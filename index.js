@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*✅ HASHAN-MD Bot Successfully Installed!*
+let up = `*✅ HASHAN-MD Bot Successfully Connected !*
 
 🔮 HASHAN-MD is built to revolutionize your WhatsApp experience smarter, faster, and more powerful.
 
@@ -83,7 +83,7 @@ MAIN OWNER | HASHIYA TECH
 
 > *🛡️ 𝗙𝗢𝗟𝗟𝗢𝗪 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 :*
 
-https://whatsapp.com/channel/0029Vb3EOfAKGGGQAsl6wI47
+https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o
 
 > *©️  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 HASHAN-MD*`;
 
