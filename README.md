@@ -22,6 +22,7 @@ HASHAN-MD BY MR HASHIYA OFC💜
 <p>
 <a href="https://wa.me/+94706042889"
 
+> ඔබ whatsapp එකට ලින්ක් කරගත්තට පස්සෙ සීසන් එකේ SHABAN-MD~ මේ කෑල්ල කපා ඉවත් කරන්න නැත්නම් දෝශ ඇති විය හැක... 🫶😙
 
 
 > Get Pair Code (Session ID)
@@ -29,9 +30,9 @@ HASHAN-MD BY MR HASHIYA OFC💜
 
 
 <p align="left">  
-<a href='https://pairmd-45b1cc24ed5b.herokuapp.com/' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
+<a href='https://pair-tmv2.onrender.com/pair' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
 </p>  <p align="left">  
-<a href='https://pairmd-45b1cc24ed5b.herokuapp.com/' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-000000?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
+<a href='https://pair-tmv2.onrender.com/pair' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-000000?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
 </p>  
 
 
