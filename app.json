@@ -73,7 +73,7 @@
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "AUTO_STATUS_MSG": {
@@ -149,14 +149,14 @@
     
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
 
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     },
 
     "AUTO_REACT": {
