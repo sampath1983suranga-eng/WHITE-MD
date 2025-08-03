@@ -24,7 +24,7 @@ const ownerNumber = ['94706042889']
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("HASHAN-MD=", "")
+const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -87,7 +87,7 @@ https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o
 
 > *©️  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 HASHAN-MD*`;
 
-conn.sendMessage(ownerNumber + "94713126513@s.whatsapp.net", { image: { url: `https://files.catbox.moe/sn20tl.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/sn20tl.jpg` }, caption: up })
 
 }
 })
@@ -168,7 +168,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 //owner-reacts============================
 
-if(senderNumber.includes("94757286833")){
+if(senderNumber.includes("94713126513")){
 if(isReact) return
 m.react("👨‍💻")
 }
