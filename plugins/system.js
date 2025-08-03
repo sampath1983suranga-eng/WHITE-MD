@@ -11,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-const {readEnv} = require('../lib/database')
+const {readEnv} = require('../lib/functions')
 const config = await readEnv();
 if(config.BLOCK_JID.includes(from)) return
     
