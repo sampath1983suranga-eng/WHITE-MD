@@ -1,1 +1,24 @@
-const _0x1022f1=_0x2daf;(function(_0x584ae0,_0x1030d4){const _0x3536d9=_0x2daf,_0x35fbce=_0x584ae0();while(!![]){try{const _0xe5b02c=parseInt(_0x3536d9(0x1a7))/0x1*(parseInt(_0x3536d9(0x1a5))/0x2)+parseInt(_0x3536d9(0x195))/0x3+parseInt(_0x3536d9(0x19c))/0x4*(-parseInt(_0x3536d9(0x199))/0x5)+-parseInt(_0x3536d9(0x1aa))/0x6+-parseInt(_0x3536d9(0x1ac))/0x7*(parseInt(_0x3536d9(0x194))/0x8)+parseInt(_0x3536d9(0x19d))/0x9+parseInt(_0x3536d9(0x19b))/0xa;if(_0xe5b02c===_0x1030d4)break;else _0x35fbce['push'](_0x35fbce['shift']());}catch(_0x1571f4){_0x35fbce['push'](_0x35fbce['shift']());}}}(_0x1a55,0x63148));function _0x2daf(_0x35dd46,_0x370e65){const _0x1a55d3=_0x1a55();return _0x2daf=function(_0x2daf63,_0x1e7001){_0x2daf63=_0x2daf63-0x193;let _0x1875b8=_0x1a55d3[_0x2daf63];return _0x1875b8;},_0x2daf(_0x35dd46,_0x370e65);}function _0x1a55(){const _0x27a5ff=['22108bwvxTH','../command','23PQAEWg','uptime','memoryUsage','4795800ABYzhZ','log','469zWXwYl','system','heapUsed','ALIVE_IMG','8968wqQiTE','1580991LiiObI','hostname','MB\x0a*_📟\x20HOSTNAME:➠_*\x20','../lib/functions','3415415kQhotY','\x0a*_💾\x20RAM\x20USAGE:➠_*\x20','10331550xfmaUy','4hnhdOX','1340352dSHXrb','main','status','\x0a*_🔖\x20OWNER:➠_*\x20*MR\x20HASHAN*\x0a\x0a\x0a*╰──────────●●►*\x0a','cheack\x20uptime','MB\x20/\x20','sendMessage','*╭──────────●●►*\x0a*HASHAN-MD\x20UPTIME\x20LIST↷*\x0a\x0a*_⏳\x20UPTIME:➠_*\x20\x20'];_0x1a55=function(){return _0x27a5ff;};return _0x1a55();}const config=require('../config'),{cmd,commands}=require(_0x1022f1(0x1a6)),os=require('os'),{runtime}=require(_0x1022f1(0x198));cmd({'pattern':_0x1022f1(0x1ad),'react':'📟','alias':['uptime',_0x1022f1(0x19f),'runtime'],'desc':_0x1022f1(0x1a1),'category':_0x1022f1(0x19e),'filename':__filename},async(_0x5a5c48,_0x1ef021,_0x270140,{from:_0xb9bce9,quoted:_0x5ac11a,body:_0x513ddc,isCmd:_0x52ca09,command:_0xd2293b,args:_0x34f49d,q:_0x54bb1e,isGroup:_0x52982a,sender:_0x344ca6,senderNumber:_0x2fb847,botNumber2:_0x2da220,botNumber:_0x4affb2,pushname:_0x73b562,isMe:_0x56de71,isOwner:_0x2eefc3,groupMetadata:_0x40f190,groupName:_0x117124,participants:_0x63509,groupAdmins:_0x29b142,isBotAdmins:_0x44e5f1,isAdmins:_0x286510,reply:_0x28aa91})=>{const _0x3a3cfe=_0x1022f1;try{let _0x18e76a=_0x3a3cfe(0x1a4)+runtime(process[_0x3a3cfe(0x1a8)]())+_0x3a3cfe(0x19a)+(process[_0x3a3cfe(0x1a9)]()[_0x3a3cfe(0x1ae)]/0x400/0x400)['toFixed'](0x2)+_0x3a3cfe(0x1a2)+Math['round'](require('os')['totalmem']/0x400/0x400)+_0x3a3cfe(0x197)+os[_0x3a3cfe(0x196)]()+_0x3a3cfe(0x1a0);await _0x5a5c48[_0x3a3cfe(0x1a3)](_0xb9bce9,{'image':{'url':config[_0x3a3cfe(0x193)]},'caption':''+_0x18e76a},{'quoted':_0x1ef021});}catch(_0x315ea2){console[_0x3a3cfe(0x1ab)](_0x315ea2),_0x28aa91(''+_0x315ea2);}});
+const config = require('../config')
+const {cmd , commands} = require('../command')
+const os = require("os")
+const {runtime} = require('../lib/functions')
+cmd({
+    pattern: "system",
+    alias: ["status","botinfo"],
+    desc: "Check uptime , ram usage and more",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let status = `*Uptime:*  ${runtime(process.uptime())}
+*Ram usage:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+*HostName:* ${os.hostname()}
+*Owner:* Hashan Sathsara
+`
+return reply('${status}')
+
+}catch(e){
+console.log(e)
+reply('${e}')
+
