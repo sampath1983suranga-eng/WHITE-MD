@@ -8,9 +8,9 @@
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "NNA0EDYD#vzEmAewlds0DGcW_VcHhdkRbdwVNTBj3U4pUyBUvo1Q",
+      "description": "kZ51BRBI#iIl5XM6-3eHuE6RqahMzVQHVc44Ez_STJXlBBXbtUP4",
       "required": true,
-      "value": "NNA0EDYD#vzEmAewlds0DGcW_VcHhdkRbdwVNTBj3U4pUyBUvo1Q"
+      "value": "kZ51BRBI#iIl5XM6-3eHuE6RqahMzVQHVc44Ez_STJXlBBXbtUP4"
     },  
     
     "STICKER_NAME": {
